@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <meta name="description"
+    content="temperature Converter is widely use to temperature convert like wether to celsius to fahrenheit or a fahrenheit to celsius">
+  <meta name="keywords"
+    content="celsius, fahrenheit, fahrenheit to celsius, celsius to fahrenheit, Converter temperature, temperature converter">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+
+  <!-- Tab Icon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-primary">
+  <header>
+    <h1 class="text-center text-white mt-4">Temperature Converter With Formula Calculation</h1>
+  </header>
+
+  <main>
+    <div class="container mw-100">
+      <div class="d-lg-flex mx-auto w-50 mt-4 boxs">
+        <div class="celsius d-flex flex-column mb-4 mb-lg-0">
+          <input type="number" value="0" name="celsius" id="celsius" class="text-box">
+          <label for="celsius" class="btn btn-warning mt-3 mx-auto fw-semibold">Celsius</label>
+        </div>
+        <div class="text-center mt-3 w-100 w-lg-25">=</div>
+        <div class="fahrenheit d-flex flex-column mt-4 mt-lg-0">
+          <input type="number" value="32" name="fahrenheit" id="fahrenheit" class="text-box">
+          <label for="fahrenheit" class="btn btn-warning mt-3 mx-auto fw-semibold">Fahrenheit</label>
+        </div>
+      </div>
+      <div
+        class="formula border pt-3 pb-3 w-50 d-flex align-items-center flex-column mt-5 text-black-50 fw-semibold text-center d-lg-block">
+        Formula Conversion <span class="bg-warning p-2 text-black rounded ms-2 mt-3" id="formula">(0°C x 9/5) + 32 = 32°F</span>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p class="text-center mt-5">&copy; Copy Right <a
+        href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia-exp1.licdn.com%2Fdms%2Fimage%2FC5603AQFbZt2ct4QXQg%2Fprofile-displayphoto-shrink_200_200%2F0%2F1649095838237%3Fe%3D1657756800%26v%3Dbeta%26t%3DnvfFSEBa4yfgSiQWvhnFEhhDV1hXLupRLiRyU-u-x8E&imgrefurl=https%3A%2F%2Fwww.linkedin.com%2Fpub%2Fdir%2FTaimoor%2FNawaz&tbnid=eCXcYMadJLhHYM&vet=12ahUKEwiAlczY37n6AhUMgRoKHVMkC9kQMygJegQIARBK..i&docid=fDe4nTeYbUifeM&w=200&h=200&itg=1&q=syed%20taimoor%20nawaz&ved=2ahUKEwiAlczY37n6AhUMgRoKHVMkC9kQMygJegQIARBK"
+        class="text-black">Syed Taimoor Nawaz</a></p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>

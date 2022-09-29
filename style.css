@@ -1,0 +1,39 @@
+*::selection{
+  color: orange !important;
+}
+
+.container{
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="number"]{
+  border: none;
+  outline: none;
+  caret-color: orange;
+  text-align: center;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+label:hover{
+  background-color: yellowgreen !important;
+  border: 1px solid black !important;
+  color: yellow !important;
+}
+
+.formula{
+  font-size: 15px;
+}
+
+
+a:hover{
+  color: orange !important;
+  text-underline-offset: 2px !important;
+  text-decoration-color: blue;
+}
